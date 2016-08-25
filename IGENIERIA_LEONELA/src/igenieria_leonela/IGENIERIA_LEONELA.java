@@ -5,6 +5,8 @@
  */
 package igenieria_leonela;
 
+import java.util.Scanner;
+
 /**
  *
  * @author leonelaureta
@@ -16,6 +18,15 @@ public class IGENIERIA_LEONELA {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        int numero,fibo1,fibo2,i;
+        do{
+            System.out.print("Introduce numero mayor que 1: ");
+            numero = sc.nextInt();
+        }while(numero<=1);
+    }
+            
+       
     }
     
-}
+
