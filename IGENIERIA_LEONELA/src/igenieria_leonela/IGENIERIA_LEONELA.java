@@ -20,8 +20,9 @@ public class IGENIERIA_LEONELA {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         int numero,fibo1,fibo2,i;
+        System.out.println("BIENVENIDOS AL SISTEMA");
         do{
-            System.out.print("Introduce numero mayor que 1: ");
+            System.out.print("INTRODUSCA UN VALOR QUE SEA MAYOR A 1: ");
             numero = sc.nextInt();
         }while(numero<=1);
         
@@ -36,8 +37,10 @@ public class IGENIERIA_LEONELA {
              fibo2 = fibo1 + fibo2;
              fibo1 = fibo2 - fibo1;
         }
-        System.out.println();
+        
+        System.out.println("HASTA LUEGO");
     }
+    
             
        
     }
