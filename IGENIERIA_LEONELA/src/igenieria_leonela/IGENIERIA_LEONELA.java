@@ -39,9 +39,15 @@ public class IGENIERIA_LEONELA {
         }
         
         System.out.println("HASTA LUEGO");
+        funciona();
     }
+
+    private static void funciona() {
+       
+        System.out.println("SI FUNCIONA");
     
-            
+        }
+         
        
     }
     
